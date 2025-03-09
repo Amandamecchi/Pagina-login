@@ -1,11 +1,9 @@
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Input.module.css';
 
-export default function Home(){
+export default function Input({ text, tipo, id }) {
     return (
-        <div className={styles.container}>
-            <input type="text" placeholder="Enter your name" />
-            <button>Submit</button>
-           
+        <div>
+            <input id={id} className={styles.input} type={tipo} placeholder={text} />
         </div>
     )
 }

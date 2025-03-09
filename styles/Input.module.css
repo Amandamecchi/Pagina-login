@@ -1,0 +1,16 @@
+.input{
+    background-color: aqua;
+    padding: 8px;
+    margin: 5px;
+    width: 50vh;
+    height: 3vh;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+

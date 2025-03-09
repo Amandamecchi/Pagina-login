@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(255, 255, 23);
+}
+
+.login h1{
+    margin: 5px;
+    font-size: 40px;
+}
+
+.login{
+    background-color: royalblue;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.button {
+    margin: 9px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
