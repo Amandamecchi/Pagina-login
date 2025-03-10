@@ -3,7 +3,9 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: rgb(255, 255, 23);
+  background-image: url(../public/fundo.png);
+  background-size: cover;
+
 }
 
 .login h1{
