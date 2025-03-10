@@ -10,7 +10,7 @@ export default function Home() {
     return(
         <div className={styles.container}>
             <div className={styles.login}>
-                <h1>Login</h1>
+                <h1>Cadastre se</h1>
                 <Input text="Nome" tipo="text" id="nome"/>
                 <Input text="Email" tipo="email" id="email"/>
                 <Input text="Senha" tipo="password" id="senha"/>

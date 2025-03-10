@@ -5,11 +5,15 @@ export default 	function Perfil() {
         <div className={styles.container}>
             <div className={styles.perfil}>
                 <div className={styles.image}>
-                    <img src="https://i.pinimg.com/736x/95/f4/85/95f4854d922cd5a2eb3c988d12163da5.jpg" alt="Perfil" />
+                    <img src="/foto-formal.jpeg" alt="Perfil" />
                 </div>
-                <Card title={"texto"} text={"sajkbfhejfwsh"}/>
-                <Card title={"texto"} text={"sajkbfhejfwsh"}/>
-                <Card title={"texto"} text={"sajkbfhejfwsh"}/>
+                <Card title={"Amanda Gomes Mechi"}/>
+                <Card text={"Estudante da rede Sesi Senai - Valinhos"}/>
+                <Card text={"Desenvolvedora de Software"}/>
+                <Card text={"🎂 27/03/2008 "}/>
+                <Card text={"🦁 + ✂ = 🐱"}/>
+                <Card text={"2 TDS-1"}/>
+                <Card text={"16 anos"}/>
 </div>
         </div>
     )
