@@ -4,7 +4,7 @@ import Input from '../components/Input';
 import { useRouter } from "next/navigation"
 
 
-export default function Registro() {
+export default function Signup() {
     const router = useRouter();
 
     return (
@@ -15,14 +15,13 @@ export default function Registro() {
 
             <div className={styles.formularioContainer}>
                 <h1 className={styles.title}>Um Nome Bem Top</h1>
-                <h2 className={styles.subtitle}>Cadastre-se</h2>
+                <h2 className={styles.subtitle}>Login</h2>
             
-            <Input text="Nome" tipo="text" id="nome" />
             <Input text="Email" tipo="email" id="email" />
             <Input text="Senha" tipo="password" id="senha" />
-            <button className={styles.button} onClick={() => router.push("/perfil")}>Login</button>
-            <p className={styles.link} onClick={() => router.push("/login")}>
-                    Já tenho uma conta
+            <button className={styles.button} onClick={() => router.push("/perfil")}>Entrar</button>
+            <p className={styles.link} onClick={() => router.push("/signup")}>
+                    Não tem uma conta? Cadastre-se
                 </p>
             </div>
         </div>
