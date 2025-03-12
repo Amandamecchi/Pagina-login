@@ -29,9 +29,10 @@ export default function Signup() {
                 <h2 className={styles.subtitle}>Cadastre-se</h2>
                 <Input text="Nome" tipo="text" id="nome" />
                 <Input text="Email" tipo="email" id="email" />
-                <Input text="Senha" tipo="password" id="senha" onChange={(e) => setConfirmPassword(e.target.value)} />
+                <Input text="Senha" tipo="password" id="senha" onChange={(e) => setPassword(e.target.value)} />
                 <Input text="Confirme a Senha" tipo="password" id="confirmSenha" onChange={(e) => setConfirmPassword(e.target.value)} />
-    
+
+
                 {error && <p className={styles.error}>{error}</p>}
                 <button className={styles.button} onClick={handleSignup}>Cadastrar</button>
                 <p className={styles.link} onClick={() => router.push("/login")}>

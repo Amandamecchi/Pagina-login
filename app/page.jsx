@@ -4,7 +4,7 @@ import Input from '../components/Input';
 import { useRouter } from "next/navigation"
 
 
-export default function Signup() {
+export default function Login() {
     const router = useRouter();
 
     return (
