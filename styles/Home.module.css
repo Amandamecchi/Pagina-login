@@ -2,11 +2,11 @@
     display: flex;
     width: 100vh;
     height: 100vh;
-
+    background-color: #ffffff;
 }
 
 .imageContainer {
-    width: 50%;
+    width: 35%;
     height: 100%;
 }
 

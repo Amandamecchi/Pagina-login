@@ -21,11 +21,8 @@ export default function Signup() {
 
     return (
         <div className="container">
-            <div className={styles.imageContainer}>
-                <img src="/baleia.jpg" alt="Logo" />
-            </div>
             <div className={styles.formularioContainer}>
-                <h1 className={styles.title}>Um Nome Bem Top</h1>
+                <h1 className={styles.title}>Jubarte</h1>
                 <h2 className={styles.subtitle}>Cadastre-se</h2>
                 <Input text="Nome" tipo="text" id="nome" />
                 <Input text="Email" tipo="email" id="email" />
@@ -35,9 +32,7 @@ export default function Signup() {
 
                 {error && <p className={styles.error}>{error}</p>}
                 <button className={styles.button} onClick={handleSignup}>Cadastrar</button>
-                <p className={styles.link} onClick={() => router.push("/login")}>
-                    Já tem uma conta? Faça login
-                </p>
+
             </div>
         </div>
     );
