@@ -1,8 +1,8 @@
 "use client";
-import styles from '../styles/Home.module.css';
-import Input from '../components/Input';
+import styles from '../signup/signup.css';
+import Input from "../../components/Input";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
-import { useRouter } from "next/navigation"
 
 export default function Signup() {
     const router = useRouter();
@@ -20,7 +20,7 @@ export default function Signup() {
     }
 
     return (
-        <div className={styles.container}>
+        <div className="container">
             <div className={styles.imageContainer}>
                 <img src="/baleia.jpg" alt="Logo" />
             </div>

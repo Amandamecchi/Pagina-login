@@ -14,7 +14,7 @@ export default function Login() {
             </div>
 
             <div className={styles.formularioContainer}>
-                <h1 className={styles.title}>Um Nome Bem Top</h1>
+                <h1 className={styles.title}>Jubarte</h1>
                 <h2 className={styles.subtitle}>Login</h2>
             
             <Input text="Email" tipo="email" id="email" />
