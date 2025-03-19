@@ -1,11 +1,27 @@
 "use client";
+import { useEffect } from "react";
 import styles from '../styles/Home.module.css';
 import Input from '../components/Input';
 import { useRouter } from "next/navigation"
 
 
-export default function Login() {
+export default function Home() {
     const router = useRouter();
+
+
+    //arrumar esso aqui depois
+    //não era para o tempo passar sozinho era pra passar depois
+    useEffect(() => {
+        setTimeout(() => {
+            router.push("/signup");
+        }, 5000);
+    } , [router]);
+
+    //return (
+     //   <div className={styles.container}>
+      //  <h1>carregandooo</h1>
+    //    </div>
+  //  )
 
     return (
         <div className={styles.container}>
