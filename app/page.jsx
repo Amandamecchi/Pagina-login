@@ -2,21 +2,22 @@
 
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
-import "./redirecting.css";
+import styles from "./redirecting.module.css"; 
 
 export default function Home() {
     const router = useRouter();
 
     useEffect(() => {
-        setTimeout(() => {
+        const timeout = setTimeout(() => {
             router.push("/signup");
         }, 5000);
-        return () => clearTimeout(timeout);
+        return () => clearTimeout(timeout); 
     }, [router]);
 
     return (
         <div className={styles.container}>
-         <h1>carregandooo</h1>
-       </div>
-     );
+            <h1 className={styles.title}>Carregandooooo...</h1>
+            <p className={styles.subtitle}>Aguarde.</p>
+        </div>
+    );
 }

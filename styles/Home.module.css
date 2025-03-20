@@ -1,18 +1,13 @@
 .container {
     display: flex;
-    justify-content: space-between; /* Garante que a imagem e o formulário fiquem nos lados opostos */
-    align-items: center;
+    width: 100vh;
     height: 100vh;
     background-color: #ffffff;
-    padding: 0 20px; /* Adiciona um pouco de espaçamento nas laterais */
 }
 
 .imageContainer {
     width: 35%;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .image {
@@ -28,6 +23,8 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 255, 255);
+    /* NÃO SEI COMO DEIXA O FORMULARIO DO LADO DIREITO SEM SER DESSE JEITO*/
+    margin-left: 550px;
 }
 
 .title {
@@ -42,14 +39,14 @@
 }
 
 .button {
-    width: 20%;
-    padding: 10px;
-    background-color: #000b3d;
-    color: #e7f3e2;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 1rem;
+width: 80%;
+padding: 10px;
+background-color: #000b3d;
+color: #e7f3e2;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+margin-top: 1rem;
 }
 
 .link {
@@ -59,7 +56,7 @@
     cursor: pointer;
 }
 
-.input {
+.input{
     background-color: #a6cdea;
     padding: 8px;
     margin: 5px;
@@ -68,14 +65,25 @@
     border-radius: 10px;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 @media (max-width: 1024px) {
     .container {
-        flex-direction: column; /* Empilha os elementos em telas menores */
+        flex-direction: column;
     }
 
     .imageContainer, .formularioContainer {
         width: 100%;
-        height: auto;
+        height: 50%;
+    }
+
+    .formularioContainer {
+        margin-left: 0;
     }
 
     .input {

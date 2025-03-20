@@ -6,22 +6,24 @@
     background-color: #103473; 
     text-align: center;
     color: #071647; 
-    max-width: 100%;
-    height: auto;
     width: 100%;
+    padding: 20px;
 }
 
 .perfil {
     background-color: #fcfcfc; 
-    padding: 4rem;
+    padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family: Arial, sans-serif;
+    max-width: 600px;
+    width: 80%;
+    margin: 0 auto;
+
 }
 
 .image img {
-    width: 35vh;
-    height:35vh;
+    width: 20vh;
+    height:20vh;
     border-radius: 50%;
     margin-bottom: 3rem;
     
@@ -30,6 +32,7 @@ h1 {
     font-size: 2.5rem;
     font-weight: bold;
     color: #103473;
+    margin-bottom: 1rem;
 }
 
 
